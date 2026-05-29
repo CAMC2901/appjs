@@ -13,11 +13,13 @@ export async function loginController(){
         }
 
         const userData = await loginFunction(username, password)
-        console.log("data", userData);
         
-        if(userData){
-            localStorage.setItem("user", JSON.stringify(userData[0]))
-            window.location.href = "#home"
+        if(userData.length > 0){
+            const user = userData[0]
+            localStorage.setItem("user", JSON.stringify(user))
+
+            // Redirige según el rol
+            window.location.hash = "home"
         }else{
             alert("User or password are wrong!!!")
         }
@@ -25,7 +27,7 @@ export async function loginController(){
 }
 
 async function loginFunction(username, password){
-    const response = await fetch(`http://localhost:3000/users?username=${username}&password=${password}`) //Query params
+    const response = await fetch(`http://localhost:3000/users?username=${username}&password=${password}`)
     const data = await response.json()
     return data
 }

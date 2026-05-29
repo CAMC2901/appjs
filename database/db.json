@@ -26,7 +26,41 @@
     }
   ],
   "todo_list": [
-
+    {
+      "id": "1",
+      "id_user": "2",
+      "title": "Comprar mercado",
+      "description": "Leche, huevos, pan y frutas",
+      "status": "initial"
+    },
+    {
+      "id": "2",
+      "id_user": "2",
+      "title": "Hacer ejercicio",
+      "description": "Rutina de 30 minutos en la mañana",
+      "status": "process"
+    },
+    {
+      "id": "3",
+      "id_user": "2",
+      "title": "Leer libro",
+      "description": "Terminar el capítulo 5 de Clean Code",
+      "status": "completed"
+    },
+    {
+      "id": "4",
+      "id_user": "3",
+      "title": "Entregar informe",
+      "description": "Informe mensual de ventas",
+      "status": "initial"
+    },
+    {
+      "id": "5",
+      "id_user": "3",
+      "title": "Llamar al cliente",
+      "description": "Confirmar reunión del jueves",
+      "status": "process"
+    }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
