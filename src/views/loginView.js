@@ -25,9 +25,9 @@ export default function loginView() {
         <div class="hidden md:flex bg-black items-center justify-center">
             <div class="flex flex-col items-center gap-4">
                 <div class="w-20 h-20 bg-red-600 rounded-2xl flex items-center justify-center">
-                    <span class="text-white text-4xl font-bold">T</span>
+                    <span class="text-white text-4xl font-bold">A</span>
                 </div>
-                <h2 class="text-white text-2xl font-bold">Todo App</h2>
+                <h2 class="text-white text-2xl font-bold">App</h2>
                 <p class="text-zinc-500 text-sm">Manage your tasks efficiently</p>
             </div>
         </div>

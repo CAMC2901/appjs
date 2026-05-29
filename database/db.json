@@ -27,13 +27,6 @@
   ],
   "todo_list": [
     {
-      "id": "1",
-      "id_user": "2",
-      "title": "Comprar mercado",
-      "description": "Leche, huevos, pan y frutas",
-      "status": "initial"
-    },
-    {
       "id": "2",
       "id_user": "2",
       "title": "Hacer ejercicio",

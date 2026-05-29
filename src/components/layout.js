@@ -35,9 +35,9 @@ export default function layout() {
         <div class="flex flex-col gap-6">
           <div class="flex items-center gap-2 px-3">
             <div class="w-7 h-7 bg-red-600 rounded-lg flex items-center justify-center">
-              <span class="text-white text-xs font-bold">T</span>
+              <span class="text-white text-xs font-bold">A</span>
             </div>
-            <span class="text-white font-semibold text-sm">Todo App</span>
+            <span class="text-white font-semibold text-sm">App</span>
           </div>
           <nav class="flex flex-col gap-1">
             ${routes}
